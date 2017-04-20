@@ -1,0 +1,44 @@
+
+.box {
+  display: flex;
+  /*flex-flow: row nowrap;*/
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: green;
+  height: 300px;
+  justify-content: space-around;
+
+}
+
+.box .div-1 {
+  order: 1;
+  flex 0 1 auto;
+  align-self: auto;
+  min-width: 0;
+  min-height: auto;
+  background-color: yellow;
+  justify-content: space-between;
+}
+
+.box .div-2 {
+  order: 2;
+  flex 0 1 auto;
+  align-self: auto;
+  min-width: 0;
+  min-height: auto;
+  background-color: red;
+  justify-content: space-between;
+}
+
+.box .div-3 {
+  order: 3;
+  flex 0 1 auto;
+  align-self: auto;
+  min-width: 0;
+  min-height: auto;
+  background-color: Blue;
+  justify-content: space-between;
+}

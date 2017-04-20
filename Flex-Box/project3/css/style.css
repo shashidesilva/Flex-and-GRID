@@ -1,0 +1,31 @@
+
+
+.parent {
+  border: 3px solid lightcoral;
+}
+.item {
+  height: 50px;
+  margin: 5px;
+  background-color: #cccccc;
+  color: #000000;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.parent {
+  height: 200px;
+  display: flex;
+}
+
+.item {
+  width: 150px;
+}
+
+.item:nth-child(2) {
+  align-self: center;
+}
+
+.item:nth-child(4) {
+  /*flex-grow: 8;*/
+}

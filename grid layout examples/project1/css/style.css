@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 100px;
+  grid-gap: 10px;
+  background-color: #ffffff;
+  color: #444444;
+}
+
+.box {
+  background-color: #444444;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
