@@ -1,0 +1,32 @@
+.container-1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+    grid-gap: 10px 15px;
+}
+
+.item-2-1 {
+    grid-area: header;
+    background-color: #ef5350;
+}
+
+.item-2-2 {
+    grid-area: main;
+    background-color: #007489;
+}
+
+.item-2-3 {
+    grid-area: sidebar;
+    background-color: #007489;
+}
+
+.item-2-4 {
+    grid-area: footer;
+    background-color: #777777;
+}
